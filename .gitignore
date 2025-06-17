@@ -1,3 +1,12 @@
+.idea/*
+
+# Ignorowanie katalogu IntelliJ IDEA, z wyjątkiem wybranych plików
+!.idea/misc.xml
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/runConfigurations/
+!.idea/*.iml
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -36,3 +45,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+
+
